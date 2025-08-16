@@ -26,11 +26,11 @@ class APIConfig:
                 'HOST': '0.0.0.0',
                 'PORT': 5001,
                 'DEBUG': True,
-                'FRONTEND_URL': 'https://admin-8f9s.onrender.com',
+                'FRONTEND_URL': 'https://admin-xkz1.onrender.com',
                 'CORS_ORIGINS': [
-                    'https://admin-8f9s.onrender.com',
-                    'https://admin-8f9s.onrender.com',
-                    'https://admin-8f9s.onrender.com'
+                    'https://admin-xkz1.onrender.com',
+                    'https://admin-xkz1.onrender.com',
+                    'https://admin-xkz1.onrender.com'
                 ],
                 'MEDIA_PATH': './media',
                 'DATABASE_PATH': './users.db'
@@ -40,7 +40,7 @@ class APIConfig:
                 'HOST': '0.0.0.0',
                 'PORT': 5001,
                 'DEBUG': False,
-                'FRONTEND_URL': 'https://admin-8f9s.onrender.com',
+                'FRONTEND_URL': 'https://admin-xkz1.onrender.com',
                 'CORS_ORIGINS': [
                     'https://admin-8f9s.onrender.com',
                     'https://staging.your-domain.com:3000'
@@ -53,10 +53,10 @@ class APIConfig:
                 'HOST': '0.0.0.0',
                 'PORT': 5001,
                 'DEBUG': False,
-                'FRONTEND_URL': 'https://admin-8f9s.onrender.com',
+                'FRONTEND_URL': 'https://admin-xkz1.onrender.com',
                 'CORS_ORIGINS': [
-                    'https://admin-8f9s.onrender.com',
-                    'https://admin-8f9s.onrender.com'
+                    'https://admin-xkz1.onrender.com',
+                    'https://admin-xkz1.onrender.com'
                 ],
                 'MEDIA_PATH': './media',
                 'DATABASE_PATH': './users.db'
@@ -220,4 +220,5 @@ if __name__ == "__main__":
     # Example: Update environment
 
     # api_config.update_environment('production') 
+
 
